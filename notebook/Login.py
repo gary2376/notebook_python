@@ -32,4 +32,4 @@ class Login(object):
             self.page.destroy()
 
         else:
-            showinfo(title='錯誤', message='帳號密碼輸入錯誤！')
+            showinfo(title='輸入錯誤', message='帳號密碼輸入錯誤！')
